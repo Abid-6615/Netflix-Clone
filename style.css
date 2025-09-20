@@ -10,6 +10,8 @@ header{
     height: 93vh;
     background-size: cover;
     position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 .blk-box{
     position: absolute;
@@ -17,4 +19,26 @@ header{
     height: 100%;
     background-color: black;
     opacity: 0.7;
+}
+nav{
+    display: flex;
+    max-width: 63vw;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+nav .logo img{
+    width: 150px;
+    height: 90px;
+}
+nav .button button{
+    padding: 7px 17px;
+    border-radius: 7px;
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    font-size: 13px;
+    font-weight: 900;
 }
