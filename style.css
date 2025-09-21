@@ -191,5 +191,29 @@ position: absolute;
 bottom: 15px;
 right: 10px;
 height: 5rem;
+}
+.container3{
+    height: 70vh;
+    max-width: 63vw;
+    width: 100%;
+    margin: auto;
+    padding: 70px 0 0 0;
+}
+.container3 .question-boxes .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d2d2d;
+    padding: 20px;
+    margin: 0 0 10px 0;
+    transition: 0.3s;
+}
 
+.box h2{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+.box img{
+    height: 40px;
 }
