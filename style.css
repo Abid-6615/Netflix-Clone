@@ -158,3 +158,37 @@ nav .button button {
     left: -20px;
     -webkit-text-stroke: 2px white;
 }
+.container2{
+    height: 50vh;
+    max-width: 60vw;
+    width: 100%;
+    margin: auto;
+}
+.cards{
+    display: flex;
+    gap: 15px;
+}
+.cards .card2{
+    width: 100%;
+    height: 35vh;
+    border-radius: 10px;
+    position: relative;
+    background: linear-gradient(150deg, #192145 35%, #210e18 90%);
+}
+.cards .card2 h2{
+    color: white;
+    margin-bottom: 20px;
+    margin: 28px 40px 20px 18px;
+}
+.cards .card2 p{
+    color: gray;
+    font-weight: 500;
+    margin: 0 0 0 18px;
+}
+.cards .card2 img{
+position: absolute;
+bottom: 15px;
+right: 10px;
+height: 5rem;
+
+}
