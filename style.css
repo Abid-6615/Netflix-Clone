@@ -10,7 +10,7 @@ body{
 
 header {
     background: url(assets/images/bg-image.jpg);
-    width: 100vw;
+    width: 99vw;
     height: 93vh;
     background-size: cover;
     position: relative;
@@ -119,4 +119,42 @@ nav .button button {
     padding: 5px 40px;
     border-radius: 5px;
     display: flex;
+}
+
+
+.container{
+    height: 40vh;
+    max-width: 60vw;
+    width: 100%;
+    margin: auto;
+}
+.title h1{
+    font-size: 35px;
+    color: white;
+    margin-bottom: 20px;
+}
+.slider{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 17px;
+    gap: 22px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+}
+.slider .card{
+    position: relative;
+    padding: 10px;
+}
+.card img{
+    height: 32vh;
+    border-radius: 10px;
+}
+.card .number{
+    position: absolute;
+    font-size: 120px;
+    font-weight: 900;
+    bottom: 10px;
+    left: -20px;
+    -webkit-text-stroke: 2px white;
 }
