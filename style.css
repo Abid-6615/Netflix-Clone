@@ -124,7 +124,7 @@ nav .button button {
 
 .container{
     height: 40vh;
-    max-width: 60vw;
+    max-width: 63vw;
     width: 100%;
     margin: auto;
 }
@@ -160,9 +160,10 @@ nav .button button {
 }
 .container2{
     height: 50vh;
-    max-width: 60vw;
+    max-width: 63vw;
     width: 100%;
     margin: auto;
+    padding: 70px 0 0 0;
 }
 .cards{
     display: flex;
@@ -173,7 +174,7 @@ nav .button button {
     height: 35vh;
     border-radius: 10px;
     position: relative;
-    background: linear-gradient(150deg, #192145 35%, #210e18 90%);
+    background: linear-gradient(152deg, #192145 20%, #210e18 90%);
 }
 .cards .card2 h2{
     color: white;
