@@ -17,7 +17,7 @@ header {
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
-    z-index: -1;
+    z-index: 1;
 }
 
 .blk-box {
@@ -65,7 +65,6 @@ nav .logo img {
 nav .button button {
     padding: 7px 17px;
     border-radius: 7px;
-    border: 2px solid red;
     background-color: red;
     color: white;
     font-size: 13px;
@@ -107,8 +106,9 @@ nav .button button {
 }
 
 .hero .input input {
+    color: white;
     font-size: 17px;
-    font-weight: bold;
+    font-weight: 500;
     padding: 15px 230px 15px 15px;
     text-align: start;
     border: 1px solid gray;
@@ -130,13 +130,14 @@ nav .button button {
     position: relative;
     background: radial-gradient(ellipse at top, #22284e 0%, #000 65%);
     height: 7vh;
+    z-index: 1;
 }
 
 .curve-line::before {
     content: '';
     position: absolute;
     background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
-    height: 5px;
+    height: 4px;
     top: -4px;
     left: 0;
     right: 0;
@@ -287,8 +288,9 @@ nav .button button {
 }
 
 .hero-2 .input input {
+    color: white;
     font-size: 17px;
-    font-weight: bold;
+    font-weight: 500;
     padding: 15px 330px 15px 15px;
     text-align: start;
     border: 1px solid gray;
