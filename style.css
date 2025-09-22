@@ -126,6 +126,24 @@ nav .button button {
     display: flex;
 }
 
+.curve-line {
+    position: relative;
+    background: radial-gradient(ellipse at top, #22284e 0%, #000 65%);
+    height: 7vh;
+}
+
+.curve-line::before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+    height: 5px;
+    top: -4px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-color: red;
+}
+
 
 .container {
     height: 40vh;
@@ -299,7 +317,7 @@ footer {
 footer p a {
     color: #b6b5b5;
     font-size: 16px;
-    font-weight: bold   ;
+    font-weight: bold;
 }
 
 footer .foot-grid {
@@ -320,10 +338,12 @@ footer .foot-grid {
     font-size: 15px;
     font-weight: 400;
 }
-footer .lang{
+
+footer .lang {
     padding: 50px 0 0 0;
 }
-footer .lang button{
+
+footer .lang button {
     padding: 5px 10px;
     font-size: 15px;
     font-weight: bold;
@@ -334,24 +354,30 @@ footer .lang button{
     align-items: center;
     gap: 10px;
 }
-footer .lang button img{
+
+footer .lang button img {
     height: 18px;
 }
-footer .bd{
+
+footer .bd {
     padding: 40px 0 0 0;
 }
-footer .bd p{
+
+footer .bd p {
     color: #b6b5b5;
 }
-footer .last{
+
+footer .last {
     padding: 40px 0 0 0;
 }
-footer .last p{
+
+footer .last p {
     color: #7a7a7a;
     font-size: 13px;
     font-weight: 500;
 }
-footer .last p a{
+
+footer .last p a {
     color: #1f73e5;
     font-size: 13px;
     font-weight: 400;
